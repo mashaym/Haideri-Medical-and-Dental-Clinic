@@ -1,0 +1,32 @@
+{
+  "recommendations": [
+    // React & TypeScript
+    "dsznajder.es7-react-js-snippets",
+    "xabikos.ReactSnippets",
+    "ms-vscode.typescript-vue-plugin",
+
+    // Styling
+    "bradlc.vscode-tailwindcss",
+    "ecmel.vscode-html-css",
+
+    // Code Quality
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+
+    // Git
+    "eamodio.gitlens",
+    "donjayamanne.githistory",
+
+    // Productivity
+    "ms-vscode.vscode-typescript-next",
+    "humao.rest-client",
+    "eamodio.better-comments",
+
+    // Documentation
+    "ms-vscode.vscode-markdown-github-ui",
+
+    // Optional but helpful
+    "redhat.vscode-yaml",
+    "ms-azuretools.vscode-docker"
+  ]
+}
