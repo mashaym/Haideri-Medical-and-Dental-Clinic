@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Haideri Medical and Dental Clinic
+
+A professional website for Haideri Medical and Dental Center located in Abbottabad, Pakistan. Built with modern web technologies to provide information about dental services, facilities, and patient testimonials.
+
+## Features
+
+- **Responsive Design** - Mobile-friendly interface for all devices
+- **Service Showcase** - Display of dental and medical services offered
+- **Patient Reviews** - Testimonials and ratings from satisfied patients
+- **Contact Form** - Easy appointment booking and inquiry system
+- **WhatsApp Integration** - Direct messaging capability
+- **Modern Tech Stack** - Built with Next.js 16, React 19, and Tailwind CSS
+
+## Services
+
+- General & Family Dentistry
+- Cosmetic Dentistry
+- Root Canal Treatment
+- Dental Implants
+- Teeth Whitening
+- Pediatric Dentistry
+- Emergency Dental Care
+- Physiotherapy Services
+- General Medical Consultations
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
 
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/mashaym/Haideri-Medical-and-Dental-Clinic.git
+cd Haideri-Medical-and-Dental-Clinic
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/              # Next.js app router pages
+│   ├── page.tsx      # Home page
+│   ├── about/        # About page
+│   ├── contact/      # Contact page
+│   ├── services/     # Services page
+│   ├── reviews/      # Reviews page
+│   └── api/          # API routes
+├── components/       # React components
+├── lib/              # Utilities and data
+└── app/globals.css   # Global styles
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact Information
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Phone**: 0333 9482234
+- **WhatsApp**: +923339482234
+- **Address**: Kehal, Abbottabad, KPK, Pakistan
+- **Doctor**: Dr. Syed Saif Kazmi
 
-## Deploy on Vercel
+## Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Next.js 16.2.10** - React framework
+- **React 19.2.4** - UI library
+- **TypeScript** - Type safety
+- **Tailwind CSS 4** - Styling
+- **Lucide React** - Icons
+- **PostCSS** - CSS processing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Build & Deploy
+
+Build for production:
+```bash
+npm run build
+npm start
+```
+
+## License
+
+This project is proprietary and confidential.
