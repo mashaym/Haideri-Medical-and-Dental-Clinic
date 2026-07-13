@@ -17,7 +17,7 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
-echo ✓ Node.js found: 
+echo ✓ Node.js found:
 node --version
 
 echo.
