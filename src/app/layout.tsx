@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     template: `%s | ${clinic.name}`,
   },
   description:
-    "Haideri Medical and Dental Center in Kehal, Abbottabad — trusted family dentistry, cosmetic dentistry, dental implants, and physiotherapy led by Dr. Syed Saif Kazmi. Book your appointment today.",
+    "A modern, conversion-focused website for Haideri Medical and Dental Center in Abbottabad — showcasing trusted family dentistry, cosmetic treatments, implants, and physiotherapy led by Dr. Syed Saif Kazmi.",
   keywords: [
     "dentist Abbottabad",
     "dental clinic Abbottabad",

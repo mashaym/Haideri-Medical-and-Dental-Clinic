@@ -18,7 +18,7 @@ export default function ContactPage() {
       <PageHero
         eyebrow="Contact Us"
         title="Book Your Appointment"
-        description="Reach out by phone, WhatsApp, or the form below — our team is ready to help."
+        description="Reach out by phone, WhatsApp, or the form below — your enquiry will be handled promptly and professionally."
       />
 
       <section className="py-16 sm:py-20">

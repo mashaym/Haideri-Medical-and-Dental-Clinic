@@ -40,7 +40,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About Us"
         title="A Family & Medical Clinic Built on Trust"
-        description="Haideri Medical and Dental Center has become the family dentist of choice for patients across Abbottabad — combining dental, cosmetic, and physiotherapy care in one modern facility."
+        description="Haideri Medical and Dental Center has become the family dentist of choice for patients across Abbottabad — combining dental, cosmetic, and physiotherapy care in one modern facility through a polished, patient-first digital presence."
       />
 
       <section className="py-16 sm:py-20">

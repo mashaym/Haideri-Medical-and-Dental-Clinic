@@ -19,7 +19,7 @@ export default function ServicesPage() {
       <PageHero
         eyebrow="Our Services"
         title="Complete Dental & Medical Care, In One Place"
-        description="Every treatment is delivered with the same professionalism and gentle care our patients highlight in their reviews."
+        description="From preventive care to advanced treatment, each service is delivered with professionalism, comfort, and a patient-first approach."
       />
 
       <section className="py-16 sm:py-20">

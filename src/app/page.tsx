@@ -23,6 +23,28 @@ import { clinic, hours, reviews, services, whyChooseUs } from "@/lib/data";
 export default function Home() {
   const featuredServices = services.slice(0, 6);
   const featuredReviews = reviews.slice(0, 6);
+  const businessBenefits = [
+    {
+      title: "Local visibility",
+      description:
+        "Built to appear clearly in local searches for dentist, dental clinic, implants, and physiotherapy in Abbottabad.",
+    },
+    {
+      title: "Higher trust",
+      description:
+        "A clean, modern presentation helps patients feel confident before they even walk in the door.",
+    },
+    {
+      title: " Easier bookings",
+      description:
+        "Call, WhatsApp, and enquiry forms make it simple for patients to connect with the clinic instantly.",
+    },
+    {
+      title: "Ready to grow",
+      description:
+        "The site is structured so the clinic can expand with more services, testimonials, and future features.",
+    },
+  ];
 
   return (
     <>
@@ -41,16 +63,13 @@ export default function Home() {
             <div className="animate-fade-up">
               <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-medium text-brand-200">
                 <Star size={13} fill="currentColor" className="text-gold-400" />
-                Loved by patients across Abbottabad
+                A professional digital front door for your clinic
               </div>
               <h1 className="font-display mt-6 text-balance text-4xl font-bold leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-[3.4rem]">
-                Gentle, Professional Dental &amp; Medical Care in Abbottabad
+                A modern website for trusted dental &amp; medical care in Abbottabad
               </h1>
               <p className="mt-6 max-w-xl text-balance text-base leading-relaxed text-ink-300 sm:text-lg">
-                Haideri Medical and Dental Center offers family dentistry,
-                cosmetic treatments, dental implants, and physiotherapy —
-                led by {clinic.doctor} in a clean, modern facility patients
-                trust as their family clinic.
+                Haideri Medical and Dental Center now has a polished online presence designed to help patients discover your clinic, understand your services, and book appointments with confidence.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <Button
@@ -189,6 +208,64 @@ export default function Home() {
                 </p>
               </div>
             ))}
+          </div>
+        </Container>
+      </section>
+
+      {/* Business value */}
+      <section className="py-20 sm:py-24">
+        <Container>
+          <div className="overflow-hidden rounded-[2rem] border border-brand-100 bg-gradient-to-br from-brand-50 via-white to-white p-8 shadow-sm sm:p-10 lg:p-12">
+            <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-start">
+              <div>
+                <span className="inline-flex items-center rounded-full bg-brand-600/10 px-3.5 py-1 text-xs font-semibold uppercase tracking-wide text-brand-700">
+                  Business Value
+                </span>
+                <h2 className="font-display mt-4 text-3xl font-bold tracking-tight text-ink-900 sm:text-4xl">
+                  A website that helps your clinic look credible, visible, and easy to trust
+                </h2>
+                <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-600">
+                  This website is designed not just to inform, but to convert local interest into real appointments. It presents your clinic as modern, professional, and patient-focused from the very first impression.
+                </p>
+
+                <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+                  {businessBenefits.map((item) => (
+                    <div key={item.title} className="rounded-2xl border border-ink-100 bg-white p-4">
+                      <h3 className="font-display text-base font-semibold text-ink-900">
+                        {item.title}
+                      </h3>
+                      <p className="mt-2 text-sm leading-relaxed text-ink-600">
+                        {item.description}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="rounded-3xl border border-brand-100 bg-brand-600 p-6 text-white shadow-lg shadow-brand-900/10">
+                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-100">
+                  Included experience
+                </p>
+                <ul className="mt-5 space-y-3 text-sm text-brand-50">
+                  <li className="flex items-start gap-2.5">
+                    <BadgeCheck size={18} className="mt-0.5 shrink-0 text-brand-200" />
+                    Mobile-friendly pages for every service and contact point
+                  </li>
+                  <li className="flex items-start gap-2.5">
+                    <BadgeCheck size={18} className="mt-0.5 shrink-0 text-brand-200" />
+                    Direct phone and WhatsApp access for faster conversions
+                  </li>
+                  <li className="flex items-start gap-2.5">
+                    <BadgeCheck size={18} className="mt-0.5 shrink-0 text-brand-200" />
+                    Google Maps and clinic information for local trust
+                  </li>
+                  <li className="flex items-start gap-2.5">
+                    <BadgeCheck size={18} className="mt-0.5 shrink-0 text-brand-200" />
+                    Review-focused sections that strengthen credibility
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </Container>
       </section>
